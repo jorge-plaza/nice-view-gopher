@@ -24,20 +24,29 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #include "peripheral_status.h"
 
 LV_IMG_DECLARE(frames0);
-LV_IMG_DECLARE(frames1);
-LV_IMG_DECLARE(frames2);
-LV_IMG_DECLARE(frames3);
-LV_IMG_DECLARE(frames4);
-LV_IMG_DECLARE(frames5);
-LV_IMG_DECLARE(frames6);
-LV_IMG_DECLARE(frames7);
-LV_IMG_DECLARE(frames8);
-LV_IMG_DECLARE(frames9);
+LV_IMG_DECLARE(frames01);
+LV_IMG_DECLARE(frames02);
+LV_IMG_DECLARE(frames03);
+LV_IMG_DECLARE(frames04);
+LV_IMG_DECLARE(frames05);
+LV_IMG_DECLARE(frames06);
+LV_IMG_DECLARE(frames07);
+LV_IMG_DECLARE(frames08);
+LV_IMG_DECLARE(frames09);
 LV_IMG_DECLARE(frames10);
 
 const lv_img_dsc_t *anim_imgs[] = {
     &frames0,
-    &frames1
+    &frames01,
+    &frames02,
+    &frames03,
+    &frames04,
+    &frames05,
+    &frames06,
+    &frames07,
+    &frames08,
+    &frames09,
+    &frames10    
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
