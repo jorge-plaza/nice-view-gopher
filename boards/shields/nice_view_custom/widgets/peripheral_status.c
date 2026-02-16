@@ -36,17 +36,8 @@ LV_IMG_DECLARE(frames9);
 LV_IMG_DECLARE(frames10);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &frames0,
-    &frames1,
-    &frames2,
-    &frames3,
-    &frames4,
-    &frames5,
-    &frames6,
-    &frames7,
-    &frames8,
-    &frames9,
-    &frames10,
+    &frames0
+    
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
