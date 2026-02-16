@@ -36,7 +36,8 @@ LV_IMG_DECLARE(frames9);
 LV_IMG_DECLARE(frames10);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &frames0
+    &frames0,
+    &frames1,
     
 };
 
